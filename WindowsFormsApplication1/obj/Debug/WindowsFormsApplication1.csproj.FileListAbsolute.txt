@@ -1,0 +1,37 @@
+c:\users\андрей\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+c:\users\андрей\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+c:\users\андрей\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+c:\users\андрей\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+c:\users\андрей\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+c:\users\андрей\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+c:\users\андрей\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+c:\users\андрей\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+c:\users\андрей\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\андрей\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\андрей\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\андрей\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\андрей\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\андрей\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\андрей\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\андрей\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\андрей\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\андрей\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\андрей\Desktop\мессенджер\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\андрей\Desktop\мессенджер\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\андрей\Desktop\мессенджер\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\андрей\Desktop\мессенджер\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\андрей\Desktop\мессенджер\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\андрей\Desktop\мессенджер\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\андрей\Desktop\мессенджер\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\андрей\Desktop\мессенджер\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\андрей\Desktop\мессенджер\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\андрей\Desktop\мессенджерФинал\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\андрей\Desktop\мессенджерФинал\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\андрей\Desktop\мессенджерФинал\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\андрей\Desktop\мессенджерФинал\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\андрей\Desktop\мессенджерФинал\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\андрей\Desktop\мессенджерФинал\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\андрей\Desktop\мессенджерФинал\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\андрей\Desktop\мессенджерФинал\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\андрей\Desktop\мессенджерФинал\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\андрей\Desktop\мессенджерФинал\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.XML

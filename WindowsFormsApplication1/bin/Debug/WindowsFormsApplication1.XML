@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WindowsFormsApplication1</name>
+    </assembly>
+    <members>
+        <member name="T:WindowsFormsApplication1.Form1">
+            <summary>
+            Класс Form1.
+            Содержит функции, процедуры, а также описанные переменные, реализующие обмен информации между порльзователями 
+            по схеме клиент-сервер.
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.Form1.id">
+            <summary>
+            Переменные использующееся для хранения личной информации
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.Form1.firstname">
+            <summary>
+            Переменные использующееся для хранения личной информации
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.Form1.secondname">
+            <summary>
+            Переменные использующееся для хранения личной информации
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.Form1.thirdname">
+            <summary>
+            Переменные использующееся для хранения личной информации
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.Form1.pubemail">
+            <summary>
+            Переменные использующееся для хранения личной информации
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.Form1.ThreadListbox">
+            <summary>
+            Поток для отображения пользователей в listbox1.
+            В режиме обычных пользователей.
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.Form1.ThreadListboxAdm">
+            <summary>
+            Поток для отображения пользователей в listbox2.
+            В режиме администратора.
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.Form1.ThreadTextbox">
+            <summary>
+            Поток для отбражения истории переписки в richtextbox1.
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.Form1.ThreadOnline">
+            <summary>
+            Поток для регистрации пользователя в режиме онлайн.
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.Form1.sobesednik">
+            <summary>
+            Хранит в переменной имя, фамилию и отчество выбранного собеседника пользователем. 
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.Form1.pubcount">
+            <summary>
+            Хранит количество сообщений.
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.Form1.pubcountList">
+            <summary>
+            Хранит количество пользователей
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.Form1.Flag">
+            <summary>
+            Флаг используется для остановки потока functextbox.
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.Form1.listboxold">
+            <summary>
+            Переменная, которая ранит список имен пользователей listbox. 
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.Form1.wait">
+            <summary>
+            Флаг используется для остановки потока functextbox.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.#ctor">
+            <summary>
+            Инициализирует компоненты. 
+            Создает новые объекты потоков.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            По нажатию , осуществляет авторизацию пользователя.
+            В зависимости от прав содержащихся в БД показывает ту,
+            или иную панель.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"><see cref="T:System.EventArgs"/></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.AuthMethod(System.String,System.String,System.String@,System.String@,System.String@,System.String@,System.String@)">
+            <summary>
+            По нажатию , осуществляет авторизацию пользователя.
+            В зависимости от прав содержащихся в БД показывает ту,
+            или иную панель.
+            Вызывается из Button1_Click.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.funclistbox">
+            <summary>
+            Функция,которая отправляет запросы каждые 5с.
+            Ответ от сервера парсится и заносится в listbox.
+            Данныя функция используется при авторизации пользователя
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.funclistboxMethod(System.String,System.Int32@,System.String[],System.String[],System.String[],System.String[],System.String[])">
+            <summary>
+            Функция,которая отправляет запросы каждые 5с.
+            Ответ от сервера парсится и заносится в listbox.
+            Данныя функция используется при авторизации пользователя.
+            Данная функция вызывается funclistbox.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.listBox1_SelectedValueChanged(System.Object,System.EventArgs)">
+            <summary>
+            По нажатию приостанавливает поток functextbox.
+            Отправляет запрос и выводит в richtextbox историю переписки.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"><see cref="T:System.EventArgs"/></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.SelectedMethod(System.String,System.String,System.String,System.String,System.String,System.Int32@,System.String[],System.String[],System.String[],System.String[],System.String[])">
+            <summary>
+            По нажатию приостанавливает поток functextbox.
+            Отправляет запрос и выводит в richtextbox историю переписки.
+            Вызывается функция из SelectedValueChanged.
+            Так же используется в потоке обновления истории переписки.
+            Вызывается из functextbox.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.functextbox">
+            <summary>
+            Функция, которая обновляет историю переписки в richtextbox.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Оправляет сообщение пользователя на сервер,где оно записывается в БД.
+            И как следствие отображается в истории переписки двух пользователей.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"><see cref="T:System.EventArgs"/></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.funconline">
+            <summary>
+            Функция, которая отправляет запрос каждые 5с.
+            При котором происходит запись в БД время пребывания пользователя в режиме онлайн.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.funclistboxAdm">
+            <summary>
+            Функция,которая отправляет запросы каждые 5с.
+            Ответ от сервера парсится и заносится в listbox.
+            Данныя функция используется при авторизации администратора.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.funclistboxAdmMethod(System.String,System.Int32@,System.String[],System.String[],System.String[])">
+            <summary>
+            Функция,которая отправляет запросы каждые 5с.
+            Ответ от сервера парсится и заносится в listbox.
+            Данныя функция используется при авторизации администратора.
+            Вызывается данный метод funclistboxAdmMethod из функции funclistboxAdm.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.listBox2_SelectedValueChanged(System.Object,System.EventArgs)">
+            <summary>
+            По нажатию отправляет запрос с данными выбранного пользователя.
+            И возвращает их в специально отведенные textbox.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"><see cref="T:System.EventArgs"/></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.SelectedAdmMethod(System.String,System.String,System.String@,System.String@,System.String@,System.String@,System.String@)">
+            <summary>
+            По нажатию отправляет запрос с данными выбранного пользователя.
+            И возвращает их в специально отведенные textbox.
+            Данный метод SelectedAdmMethod вызывается из listBox2_SelectedValueChanged.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            Удаляет выбранного пользователя.
+            Доступно только администратору.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"><see cref="T:System.EventArgs"/></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.button5_Click(System.Object,System.EventArgs)">
+            <summary>
+            Добавляет нового пользователя в БД.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"><see cref="T:System.EventArgs"/></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.button4_Click(System.Object,System.EventArgs)">
+            <summary>
+            Отправляет запрос с данными пользователя на сервер.
+            Где происходит обновление информации о нем.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"><see cref="T:System.EventArgs"/></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.button6_Click(System.Object,System.EventArgs)">
+            <summary>
+            Очищает все textbox.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"><see cref="T:System.EventArgs"/></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.textBox3_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            Запрещает ввод пробела для textbox3.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"><see cref="T:System.EventArgs"/></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.textBox4_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            Запрещает ввод пробела для textbox4.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"><see cref="T:System.EventArgs"/></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.textBox5_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            Запрещает ввод пробела для textbox5.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"><see cref="T:System.EventArgs"/></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.textBox6_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            Запрещает ввод пробела для textbox6.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"><see cref="T:System.EventArgs"/></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.textBox7_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            Запрещает ввод пробела для textbox7.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"><see cref="T:System.EventArgs"/></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.OnApplicationExit(System.Object,System.EventArgs)">
+            <summary>
+            Закрывает все потоки по завершению работы приложения.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"><see cref="T:System.EventArgs"/></param>
+        </member>
+        <member name="F:WindowsFormsApplication1.Form1.components">
+            <summary>
+            Требуется переменная конструктора.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.Dispose(System.Boolean)">
+            <summary>
+            Освободить все используемые ресурсы.
+            </summary>
+            <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.InitializeComponent">
+            <summary>
+            Обязательный метод для поддержки конструктора - не изменяйте
+            содержимое данного метода при помощи редактора кода.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Program.Main">
+            <summary>
+            Главная точка входа для приложения.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.Properties.Resources">
+            <summary>
+              Класс ресурсов со строгим типом для поиска локализованных строк и пр.
+            </summary>
+        </member>
+        <member name="P:WindowsFormsApplication1.Properties.Resources.ResourceManager">
+            <summary>
+              Возврат кэшированного экземпляра ResourceManager, используемого этим классом.
+            </summary>
+        </member>
+        <member name="P:WindowsFormsApplication1.Properties.Resources.Culture">
+            <summary>
+              Переопределяет свойство CurrentUICulture текущего потока для всех
+              подстановки ресурсов с помощью этого класса ресурсов со строгим типом.
+            </summary>
+        </member>
+    </members>
+</doc>
